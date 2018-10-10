@@ -39,7 +39,7 @@
 
 	// Parallax
 	var parallax = function() {
-		//only do parallax is not on mobile!
+		//only do parallax if not on mobile!
 		if (!ismobile) {
 			$(window).stellar();
 		}

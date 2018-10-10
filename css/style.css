@@ -333,16 +333,16 @@ h2 {
   margin:0 auto;
   margin-top: 60px;
   margin-bottom: 10px; 
-  background-color: transparent; /*#00dcff*/
+  background-color: rgba(255, 255, 255, 0.1); /*#00dcff*/
   color: white;
   font-size: 1.4em;
-  font-style: bold;
-  font-family: arial;
+  font-weight: 200;
+  font-family: FuturaMD_BT;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  border-radius: 7px;
-  border: 2px solid white;
+  border-radius: 3px;
+  border: 1px solid white;
 }
 
 #fullPortfolio:hover {
@@ -1404,3 +1404,25 @@ input[type="text"] {
 }
 
 
+/*****************************/
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #a7babc; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0d5577; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0e3e55; 
+}
